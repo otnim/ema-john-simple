@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Products.css';
@@ -7,7 +6,7 @@ import './Products.css';
 const Products = (props) => {
     const { name, img, price, stock } = props.prodInfo;
     return (
-        <div className='box row'>
+        <div className='box'>
             <div>
                 <img src={img} alt="" />
             </div>

@@ -12,7 +12,7 @@ const Header = () => {
                 <a href="/manage"> Manage Inventory </a>
             </nav>
             <div className="search-area">
-                <input type="search" className="input-box" placeholder="Search" />
+                <input type="search" className="input-box form-control" placeholder="Search" />
             </div>
         </div>
     );

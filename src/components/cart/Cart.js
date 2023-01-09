@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactBootstrap from '../react-bootstrap/ReactBootstrap';
 
 const Cart = (props) => {
     
@@ -16,6 +17,7 @@ const Cart = (props) => {
         <div>
             <h3>Order Summary </h3>
             <h5> Price: ${totalll.toFixed(2)}</h5>
+            <ReactBootstrap> </ReactBootstrap>
         </div>
     );
 };
